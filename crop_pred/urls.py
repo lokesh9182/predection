@@ -18,8 +18,8 @@ from django.urls import path,include
 #from cropapp import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    #path('crop/',include('cropapp.urls')),
+    #path('admin/', admin.site.urls),
+    path('crop/',include('cropapp.urls')),
     path('',include('cropapp.urls')),
     ]
  
